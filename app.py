@@ -13,7 +13,7 @@ print("PyTorch version:", torch.__version__)
 print(sys.version)
 
 # Load the model 
-model = torch.load('/app/test_server/diabetes_model.pt')
+model = torch.load('/app/test_server/diabetes_model.pt') # most recent model
 print("Model Architecture:", model)
 model.eval()
 
